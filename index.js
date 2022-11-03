@@ -10,7 +10,7 @@ form.addEventListener('submit', (e)=>{
 })
 
   function clearValue(value){
-      if(value === ''){
+      if(value === '' || value.match(pattern)){
       submitMessage.innerText = '' 
       errorIcon.style.display = 'none'}
       console.log(value)
