@@ -67,6 +67,7 @@ span {
   color: var(--Desaturated-Red);
 }
 .content-input {
+  position: relative;
   width: 230px;
   border-radius: 58px;
   border: 0.5px solid hsl(0, 36%, 70%);
@@ -87,6 +88,7 @@ span {
   top: 0px;
   cursor: pointer;
   box-shadow: 0px 10px 20px 5px rgba(169, 83, 83, 0.22);
+  z-index: 100;
 }
 ::placeholder {
   color: var(--Desaturated-Red);
@@ -98,18 +100,18 @@ span {
   position: absolute;
   right: 113px;
   top: 17px;
+  display: none;
 }
 .content-wrapper {
   margin-left: -57px;
   height: 100%;
 }
 .span-error {
-  font-size: 0.81rem;
   display: block;
+  font-size: 0.81rem;
   color: var(--Soft-Red);
   font-weight: 400;
   margin-left: 32px;
   margin-top: 11px;
-  display: block;
 }
 
