@@ -2,7 +2,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    width: auto;
+    height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -123,6 +124,7 @@ body {
       display: block;
       bottom: 14px;
       left: 304px;
+      transition: all 0.2s ease-in-out;
       opacity: 0;
     }
     .submit-message {
@@ -132,10 +134,11 @@ body {
       font-weight: 400;
       margin-left: 32px;
       margin-top: 11px;
+      transition: all 0.2s ease-in-out;
       opacity: 0;
     }
 
-    @media only screen and (max-width: 920px){
+    @media only screen and (max-width: 900px){
 
       .picture {
         display: none;
@@ -220,14 +223,15 @@ body {
       height: 65px;
       font-size: 12.96px;
       font-weight: 400;
-      margin-left: -120px;
+      margin-left: 50px;
       margin-top: 11px;
+      width: 300px;
     }
     .form {
       margin-top: 30px;
     }
     body {
         height: 100%;
-        width: 100%;
+        width: auto;
     }
   }
