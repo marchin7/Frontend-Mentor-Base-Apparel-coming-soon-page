@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family: Josefin sans, sans-serif;
     background: var(--Linear);
+    background-repeat: repeat;
 
     
     
@@ -222,6 +223,7 @@
       font-weight: 400;
       margin-left: -120px;
       margin-top: 11px;
+      margin-bottom: 20px;
     }
     .form {
       margin-top: 30px;
