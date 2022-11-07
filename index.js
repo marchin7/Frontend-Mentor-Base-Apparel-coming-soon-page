@@ -37,7 +37,7 @@ submitBtn.addEventListener('click', ()=>{
         submitMessage.style.color ='green'
         errorIcon.style.opacity = '0'
         input.value = ''
-        //setTimeout(()=>{submitMessage.style.opacity = '0'},2000)
+        setTimeout(()=>{submitMessage.style.opacity = '0'},2000)
     }
     
 })
