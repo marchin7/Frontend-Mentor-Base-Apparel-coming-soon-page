@@ -107,6 +107,8 @@ p {
     position: absolute;
     right: 120px;
     top: 15px;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
 }
 
 .submit-btn {
@@ -128,9 +130,11 @@ p {
 
 .submit-message {
     display: block;
+    opacity: 0;
     padding: 12px 20px 20px 32px;
     font-size: 13px;
     color: red;
+    transition: opacity 0.25s ease-in-out;
 }
 
 .desktop-picture-container {
@@ -143,7 +147,6 @@ p {
     object-fit: cover;
 }
 
-/*@media*/
 
 @media only screen and (min-width: 1600px) {
     .content-wrapper {
@@ -256,6 +259,6 @@ p {
     }
 
     .submit-message {
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     }
 }
