@@ -19,14 +19,14 @@ function clearInputValue(value){
 
 submitBtn.addEventListener('click', ()=>{
     if(input.value === '') {
-        submitMessage.innerText = 'This field is required!'
+        submitMessage.innerText = 'This field is required'
         submitMessage.style.opacity = '1'
         errorIcon.style.opacity = '1'
         submitMessage.style.color = 'red'
         input.focus()
     }
     else if(!input.value.match(pattern)){
-        submitMessage.innerText ='Please provide valid email!'
+        submitMessage.innerText ='Please provide a valid email'
         submitMessage.style.opacity = '1'
         submitMessage.style.color ='red'
         errorIcon.style.opacity = '1'
