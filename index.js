@@ -1,3 +1,4 @@
+
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 const errorIcon = document.getElementById('errorIcon');
@@ -41,5 +42,3 @@ submitBtn.addEventListener('click', ()=>{
     }
     
 })
-
-
