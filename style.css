@@ -23,7 +23,7 @@
 body {
     font-family: josefin sans, sans-serif;
     height: 100vh;
-    min-height: 800px;
+    min-height: 50rem;
 }
 
 main {
@@ -42,8 +42,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 800px;
-    max-width: 1440px;
+    max-height: 50rem;
+    max-width: 90rem;
 }
 
 .content {
@@ -102,8 +102,8 @@ p {
 .input {
     width: 27.8125rem;
     height: 3.5rem;
-    border-radius: 28px;
-    padding: 0px 150px 0px 30px;
+    border-radius: 1.75rem;
+    padding: 0rem 9.375rem 0rem 1.875rem;
     border: 1px solid rgba(206, 151, 151, 0.5);
     font-family: josefin sans, sans-serif;
     font-size: 1rem;
@@ -117,8 +117,8 @@ p {
 
 .error-icon {
     position: absolute;
-    right: 120px;
-    top: 15px;
+    right: 7.5rem;
+    top: 0.9375rem;
     opacity: 0;
     transition: opacity 0.25s ease-in-out;
 }
@@ -129,7 +129,7 @@ p {
     top: 0px;
     height: 3.5rem;
     width: 6.25rem;
-    border-radius: 34px;
+    border-radius: 2.125rem;
     border: none;
     cursor: pointer;
     background: var(--background-btn);
@@ -143,25 +143,25 @@ p {
 .submit-message {
     display: block;
     opacity: 0;
-    padding: 12px 20px 20px 32px;
-    font-size: 13px;
-    color: red;
+    padding: 0.75rem 1.25rem 1.25rem 2rem;
+    font-size: 0.8125rem;
+    color: var(--Soft-Red);
     transition: opacity 0.25s ease-in-out;
 }
 
 .desktop-picture-container {
     line-height: 0;
-    min-height: 800px;
+    min-height: 50rem;
 }
 
 .desktop-picture {
     width: 100%;
     height: 100%;
-    min-height: 800px;
+    min-height: 50rem;
     object-fit: cover;
 }
 
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 90.0625rem) {
     body {
         background: var(--background);
     }
@@ -176,7 +176,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 59.375rem) {
     body {
         padding: 0;
         margin: 0;
@@ -215,7 +215,7 @@ p {
     }
 
     .logo {
-        width: 100px;
+        width: 6.25rem;
     }
 
     .desktop-picture-container {
@@ -225,7 +225,7 @@ p {
     .mobile-picture-container {
         display: inline-block;
         width: 100%;
-        height: 250px;
+        height: 15.625rem;
     }
 
     .mobile-picture {
@@ -242,8 +242,8 @@ p {
         letter-spacing: 0.625rem;
         width: 18.75rem;
         text-align: center;
-        padding-top: 60px;
-        padding-bottom: 15px;
+        padding-top: 3.75rem;
+        padding-bottom: 0.9375rem;
         margin: 0;
     }
 
@@ -267,28 +267,28 @@ p {
         height: 3rem;
         font-size: 0.875rem;
         border: 1px solid rgba(206, 151, 151, 0.5);
-        border-radius: 24px;
-        padding: 0px 120px 0px 30px;
+        border-radius: 1.5rem;
+        padding: 0rem 7.5rem 0rem 1.875rem;
     }
 
     .error-icon {
         position: absolute;
-        right: 80px;
-        top: 12px;
+        right: 5rem;
+        top: 0.75rem;
     }
 
     .submit-btn {
         position: absolute;
-        top: 0px;
-        right: -2px;
+        top: 0rem;
+        right: -0.125rem;
         height: 3rem;
         width: 4.0625rem;
-        border-radius: 24px;
+        border-radius: 1.5rem;
         border: none;
     }
 
     .submit-message {
         height: 5rem;
-        padding: 12px 20px 20px 32px;
+        padding: 0.75rem 1.25rem 1.25rem 2rem;
     }
 }
