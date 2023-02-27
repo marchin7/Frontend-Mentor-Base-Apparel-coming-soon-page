@@ -8,7 +8,6 @@ const regExp = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     validateEmail();
-    console.log("wtf?");
 });
 
 function validateEmail() {
