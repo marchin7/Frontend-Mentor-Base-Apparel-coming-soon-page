@@ -24,6 +24,7 @@ body {
     font-family: josefin sans, sans-serif;
     height: 100vh;
     min-height: 50rem;
+    overflow-x: hidden;
 }
 
 main {
