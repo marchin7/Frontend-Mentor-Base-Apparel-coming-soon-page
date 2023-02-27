@@ -1,6 +1,6 @@
 :root {
     --Desaturated-Red: hsl(0, 36%, 70%);
-    --Soft-Red: rgb(249, 98, 98);
+    --Soft-Red: hsl(0, 93%, 68%);
     --Dark-Grayish-Red: hsl(0, 6%, 24%);
     --background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     --background-btn: linear-gradient(
@@ -165,11 +165,7 @@ p {
 .submit-message.error {
     opacity: 1;
     color: var(--Soft-Red);
-}
-
-.submit-message.success {
-    opacity: 1;
-    color: green;
+    transition: opacity 0.25s ease-in-out;
 }
 
 .desktop-picture-container {
