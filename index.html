@@ -44,13 +44,12 @@
               store. Add your email below to stay up-to-date with announcements
               and our launch deals.
             </p>
-            <div class="form" id="form">
+            <form class="form" id="form">
               <input
                 class="input"
                 type="text"
                 placeholder="Email Address"
                 id="input"
-                oninput="removeError(this.value)"
               />
               <img
                 src="images/icon-error.svg"
@@ -60,11 +59,11 @@
                 class="error-icon"
                 id="errorIcon"
               />
-              <button class="submit-btn" id="submitBtn">
+              <button class="submit-btn" id="submitBtn" type="submit">
                 <img src="images/icon-arrow.svg" alt="" aria-hidden="true" />
               </button>
               <span class="submit-message" id="submitMessage"></span>
-            </div>
+            </form>
           </div>
         </div>
         <div class="desktop-picture-container">
