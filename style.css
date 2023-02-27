@@ -110,6 +110,7 @@ p {
     outline-color: var(--Soft-Red);
     background-color: transparent;
     outline: none;
+    text-transform: lowercase;
 }
 
 .input.error {
