@@ -125,7 +125,7 @@ p {
     right: 7.5rem;
     top: 0.9375rem;
     opacity: 0;
-    transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.15s ease-in-out;
 }
 
 .error-icon.error {
